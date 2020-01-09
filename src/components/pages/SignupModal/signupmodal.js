@@ -35,7 +35,7 @@ class App extends React.Component {
     render() {
         return (
           <div>
-            <Modal show={this.state.show} handleclose={this.hideModal} >
+            <Modal show={this.state.show} handleclose={this.hid eModal} >
                 <div className="blkOverlay">
                     {/* This is Login Form to log in to your profile */ }
                     <div className="formContent modal-main">
