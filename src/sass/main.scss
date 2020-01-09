@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+// import using ~
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+
+@import 'abstracts/variables';
+
+// @import 'abstracts/functions';
+// @import 'abstracts/mixins';
+
+// @import 'vendors/bootstrap';
+// @import 'vendors/jquery-ui';
+
+// @import 'base/reset';
+// @import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/reset';
+@import 'layout/modal';
+// @import 'layout/header';
+@import 'layout/footer';
+// @import 'layout/sidebar';
+// @import 'layout/forms';
+@import 'layout/hero';
+
+// @import 'components/buttons';
+// @import 'components/carousel';
+// @import 'components/slider';
+@import 'components/findplaceform';
+
+// @import 'pages/home';
+// @import 'pages/about';
+// @import 'pages/contact';
+
+// @import 'themes/theme';
+// @import 'themes/admin';

@@ -1,0 +1,38 @@
+.FindSpaceForm {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  bottom: 0;
+  padding: 2rem;
+  height: 100%;
+  max-height: 627px;
+  background-color: #BDC2CD;
+}
+
+.FindSpaceForm h2 {
+  font-size: 2em;
+  width: 367px;
+  margin-bottom: 30px;
+}
+
+.FindSpaceForm form label {
+  display: block;
+  padding-bottom: 0.3em;
+}
+
+.FindSpaceForm form input, .FindSpaceForm form button, .FindSpaceForm form select, .FindSpaceForm form option {
+  width: 100%;
+  height: 52px;
+  padding: 1em;
+  border: none;
+  margin-bottom: 3em;
+}
+
+.FindSpaceForm form .FormChild {
+  width: 100%;
+}
+
+.FindSpaceForm form .FormChild:last-child {
+  padding-left: 1em;
+}
+/*# sourceMappingURL=findplaceform.css.map */
