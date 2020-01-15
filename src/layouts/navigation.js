@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import Dropdown from "../components//pages/dropdowns/dropdowns";
-import SignupModal from "../components/pages/SignupModal/signupmodal";
-import hamburger from "../images/menu.svg";
+import "../components/pages/Forms/MainScreen";
+import Dropdown from "../components//pages/dropdowns/dropdowns"; 
+import hamburger from "../images/menu.svg"
+
 
 class Navigation extends React.Component {
 
@@ -19,6 +20,14 @@ class Navigation extends React.Component {
           isExpanded: !prevState.isExpanded, // negate the previous expanded state
         }));
       }
+
+    showLoginBox() {
+        this.setState({isLoginOpen: true, isRegisterOpen: false});
+    }
+    
+    showRegisterBox() {
+        this.setState({isRegisterOpen: true, isLoginOpen: false});
+    }
 
     render() {
 
@@ -45,13 +54,25 @@ class Navigation extends React.Component {
                         <li className="RightNav"><Link to="/">About Us</Link></li>
                         <li className="RightNav"><Link to="/">Contact Us</Link></li>
                         <div className="btnflexright">
-                            <button className="RightNav" onClick={ this.showSignup }>
-                                Sign Up
-                            </button>
-                            <button className="RightNav" onClick={ this.showLogin }>
-                                Login
-                            </button>
-                            <SignupModal />
+                        <button
+                            className={"controller " + (this.state.isLoginOpen
+                            ? "selected-controller"
+                            : "")}
+                            onClick={this
+                            .props
+                            .showLoginBox}>
+                            Login
+                        </button>
+                        
+                        <button
+                            className={"controller " + (this.state.isRegisterOpen
+                            ? "selected-controller"
+                            : "")}
+                            onClick={this
+                            .props
+                            .showRegisterBox}>
+                            Sign up
+                        </button>
                         </div>
                   </ul>
                </div>
