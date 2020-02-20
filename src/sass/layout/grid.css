@@ -1,13 +1,14 @@
-.FlexContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.container {
+    max-width: 1202px;
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.FlexContainer .FlexChilds {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+@media (max-width: 55em ) { 
+    .container {
+      max-width: 1020px;
+    }
 }
-/*# sourceMappingURL=grid.css.map */

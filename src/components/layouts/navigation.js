@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import "../components/pages/Forms/MainScreen";
-import Dropdown from "../components//pages/dropdowns/dropdowns"; 
+import Dropdown from "../dropdowns/dropdowns"; 
 import hamburger from "../images/menu.svg"
 
 
@@ -21,13 +20,6 @@ class Navigation extends React.Component {
         }));
       }
 
-    showLoginBox() {
-        this.setState({isLoginOpen: true, isRegisterOpen: false});
-    }
-    
-    showRegisterBox() {
-        this.setState({isRegisterOpen: true, isLoginOpen: false});
-    }
 
     render() {
 
@@ -35,7 +27,7 @@ class Navigation extends React.Component {
 
       return (
           <Router>
-              <div className="NavbarContainer">
+              <div className="NavbarContainer main">
                   <div className="mobilecontainer LeftNav">
                       <h2 className="BrandName LeftNav mobileboxmenu inline FarRight">Kommonplaces</h2>
                       <div className="hamburger inlinev" >
@@ -47,34 +39,29 @@ class Navigation extends React.Component {
                       </div>
                   </div>
 
-
-                  <ul className={`NavBar collapsed ${isExpanded ? "is-expanded" : ""}`}>
+                  <div className={`NavBar collapsed ${isExpanded ? "is-expanded" : ""}`}>
+                      <div className="col-a">
                         <Dropdown/>    
                         <li className="RightNav"><Link to="/">Host Your Space</Link></li>
                         <li className="RightNav"><Link to="/">About Us</Link></li>
                         <li className="RightNav"><Link to="/">Contact Us</Link></li>
-                        <div className="btnflexright">
-                        <button
-                            className={"controller " + (this.state.isLoginOpen
-                            ? "selected-controller"
-                            : "")}
-                            onClick={this
-                            .props
-                            .showLoginBox}>
-                            Login
-                        </button>
-                        
-                        <button
-                            className={"controller " + (this.state.isRegisterOpen
-                            ? "selected-controller"
-                            : "")}
-                            onClick={this
-                            .props
-                            .showRegisterBox}>
-                            Sign up
-                        </button>
-                        </div>
-                  </ul>
+                      </div>
+
+                      <div className="col-c">
+                      { /* 4. call the prop functions in `Navigation` component */ }
+                            <button
+                                className={"controller " + (this.props.isLoginOpen ? "selected-controller" : "")}
+                                onClick={this.props.showLoginBox}>
+                                Login
+                            </button>
+
+                            <button
+                                className={"controller " + (this.props.isRegisterOpen ? "selected-controller" : "")}
+                                onClick={this.props.showRegisterBox}>
+                                Sign up
+                            </button>
+                      </div>
+                  </div>
                </div>
          </Router>
       );

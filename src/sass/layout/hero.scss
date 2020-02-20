@@ -1,9 +1,139 @@
-.ImgBg {
-    max-height: 68vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.hero {
+  position: relative;
+  display: flex;
+  height: 990px;
+  margin-bottom: 240px;
+  .ImgBg {
+      position: absolute;
+      width: 100%;
+      max-width: 100%;
+      max-height: 300px;
+      @media (min-width: 55em) {
+        max-height: inherit;
+        margin: 2em 2em 0 0;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        bottom: 0;
+        top: 0; 
+      }
+
+      @media (min-width: 1024px) {
+        width: 84% !important;
+        height: 67em;
+        background-size: cover;
+        background-position: center;
+        max-height: 163%;
+      }
+
+  }
+
+  .FormContent {
+    background-color: #2C3540;
+    width: 100%;
+    box-sizing: content-box;
+    max-width: 427px;
+    z-index: 2;
+    position: relative;
+    top: 170px;
+    padding: 3em 7%;
+    margin: auto 2%;
+    .BookingForm {
+        .inline {
+            display: flex;
+            flex-direction: column;
+            .inputFullW {
+                &:last-child {
+                    margin-left: 0em;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    @media(min-width: 55em ) {
+        position: absolute;
+        padding: 3em 2%;
+        .BookingForm {
+            .inline {
+                display: flex;
+                flex-direction: row;
+                .inputFullW {
+                    &:last-child {
+                        margin-left: 1.8em;
+                    }
+                }
+
+                .halfbtn {
+                    input[type=button] {
+                        &:last-child {
+                            margin-left: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: white; 
+    }
+
+    h3 {
+        font-size: 19pt;
+        margin-bottom: 21px;
+        font-weight: bold;
+        color: white;
+    }
+
+    p {
+        margin: 20px 0;
+        font-size: 24px;  
+        color: white;  
+    }
+
+  }
+
+}
+
+
+input {
+    width: 100%;
+    height: 79px;
+    font-size: 16pt;
+    border-color: none;
+    padding: 0 22px;
+    margin-bottom: 1.8em;
+}
+
+input[type=button] {
+    border: none;
+    background-color: #3dd0AC;
+    font-weight: bold;
+    color: white;
+}
+
+input[type=date] {
+    width: 100%;
+}
+
+.Geolisting {
+    li {
+        margin-bottom: 15px;
+        list-style: none;
+        text-decoration: underline;
+        color: white;
+        font-size: 17px;
+    }
+
+    .showLink {
+        margin-top: 2em;
+        font-weight: 500;
+    }
 }

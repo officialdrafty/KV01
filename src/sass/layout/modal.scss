@@ -14,17 +14,20 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-      }
-    
-    .closebtn {
-        margin: 3em;
     }
+
+    .Closebtn {
+        float: right;
+        margin: 17px 28px;
+    }
+
+
     .formContent {
         h2 {
             text-align: center;
             font-family: 'Titillium Web', sans-serif;
             font-size: 3rem;
-            margin: 1.4em 0;
+            margin: 10.1% 0;
             span {
                 display: flex;
                 flex-direction: column;

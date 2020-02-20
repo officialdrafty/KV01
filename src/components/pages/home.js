@@ -1,25 +1,23 @@
 import React, { Component } from "react"
 import history from '../history';
-import Navigation from '../../layouts/navigation';
+import MainScreen from '../Forms/MainScreen';
+import Hero from '../layouts/hero';
+import About from '../layouts/aboutHome';
+import Carosuels from '../Carosuels/Activities/Carosuel1/carosuel.js';
 
 export default class Home extends Component {
   componentDidMount() {
     history.push('/home');
   }
   
-  showLoginBox() {
-    this.setState({isLoginOpen: true, isRegisterOpen: false});
-  }
-
-  showRegisterBox() {
-    this.setState({isRegisterOpen: true, isLoginOpen: false});
-  }
-
   render() {
     return (
       <div id="home">
-          <Navigation showRegisterBox={this.showRegisterBox.bind(this)} showLoginBox={this.showLoginBox.bind(this)}/>
-      </div>
+          <MainScreen />
+          <Hero/>
+          <About />
+          <Carosuels />
+      </div> 
     );
   }
 }

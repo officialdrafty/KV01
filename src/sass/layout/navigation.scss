@@ -1,4 +1,10 @@
 
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+
 .NavbarContainer {
     display: block;
     border-bottom: 1px #E7E7E7 solid;
@@ -42,7 +48,9 @@
     }
 
     .NavBar {
-
+        .col-a {
+            display: flex;
+        }
         .RightNav {
             text-align: center;
             padding: 27px 0;
