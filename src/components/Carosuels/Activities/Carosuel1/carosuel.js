@@ -31,6 +31,7 @@ class CarosuelItems extends Component {
 
         const settings = {
             dots: false,
+            variableWidth: true,
             infinite: true,
             speed: 500,
             slidesToShow: 3,

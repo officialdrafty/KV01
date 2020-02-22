@@ -69,6 +69,7 @@
 
                 .halfbtn {
                     input[type=button] {
+                        box-sizing : border-box;
                         &:last-child {
                             margin-left: 1.5em;
                         }
@@ -110,6 +111,7 @@ input {
     border-color: none;
     padding: 0 22px;
     margin-bottom: 1.8em;
+    box-sizing : border-box;
 }
 
 input[type=button] {
@@ -117,10 +119,11 @@ input[type=button] {
     background-color: #3dd0AC;
     font-weight: bold;
     color: white;
+    box-sizing : border-box;
 }
 
 input[type=date] {
-    width: 100%;
+    box-sizing : border-box;
 }
 
 .Geolisting {

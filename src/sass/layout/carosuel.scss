@@ -1,5 +1,5 @@
 .slick-slider {
-    width: 53em;
+    width: 74em;
     height: 17em; 
 }
 
@@ -23,6 +23,7 @@
 
     .activities {
         border: solid 1px #E1E1E1;
+        height: inherit;
         padding: 3em;
         margin-bottom: 3em;
         display: flex;
@@ -31,7 +32,7 @@
         .divders {
             max-width: 1px !important;
             margin: 0 auto;
-            height: inherit;
+            height: 390px;
             width: 10px;
             background-color: #E1E1E1;
         }
@@ -63,7 +64,7 @@
         }
 
         .EventImg {
-            width: 100%;
+            width: 340px;
             margin-bottom: 15px;
         }
 
