@@ -64,7 +64,7 @@ class CarosuelItems extends Component {
         };
 
         return (
-            <div className="activities">
+                <div className="activities">
                 <div className="col col-b3">
                     <div className="content">
                         <div className="inline">

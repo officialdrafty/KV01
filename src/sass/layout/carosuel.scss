@@ -1,16 +1,11 @@
 .slick-slider {
-    width: 74em;
+    width: 52vw;
     height: 17em; 
 }
 
 /* the slides */
 .slick-slide {
     margin: 0 27px;
-}
-
-/* the parent */
-.slick-list {
-    // margin: 0 -27px;
 }
 
 .container-fluid {
@@ -24,21 +19,18 @@
     .activities {
         border: solid 1px #E1E1E1;
         height: inherit;
+        width: inherit;
         padding: 3em;
         margin-bottom: 3em;
         display: flex;
         flex-direction: column;
 
         .divders {
-            max-width: 1px !important;
-            margin: 0 auto;
-            height: 390px;
-            width: 10px;
-            background-color: #E1E1E1;
+            display: none;
         }
 
         .content {
-            padding: 2em 2em 0 0;
+            padding: 0;
 
             .inline {
                 margin: 19px 0;
@@ -64,7 +56,7 @@
         }
 
         .EventImg {
-            width: 340px;
+            width: 16vw;
             margin-bottom: 15px;
         }
 
@@ -77,10 +69,21 @@
         align-items: center;
         width: 90em;
         margin: 0 auto;
+
         .activities {
             flex-direction: row;
+
+            .divders {
+                max-width: 1px !important;
+                margin: 0 auto;
+                height: 345px;
+                width: 10px;
+                display: block;
+                background-color: #E1E1E1;
+            }
+
             .content {
-    
+                padding: 2em 2em 0 0;
                 .inline {
                     margin: 19px 0;
                 }
@@ -98,6 +101,12 @@
                     width: 161px;
                     font-size: 14pt;
                 }
+
+            }
+
+            .EventImg {
+                width: 15vw;
+                margin-bottom: 15px;
             }
         }
     }

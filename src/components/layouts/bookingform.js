@@ -15,19 +15,19 @@ class App extends Component {
                     </div>
 
                     <div class="inline">
-                        <div className="inputFullW">
+                        <div>
                             <h4>Check-In</h4>
                             <input placeholder="12/23/2020" type="date" value="check-in" onChange="" />   
                         </div>
 
-                        <div className="inputFullW">
+                        <div>
                             <h4>Check-Out</h4>
                             <input placeholder="12/23/2020" type="date" value="check-out" onChange="" />
                         </div>
                     </div>
 
                     <div className="inline">
-                        <div className="inputFullW">
+                        <div>
                             <input placeholder="College Park, MD, USA" type="location" value="" onChange="" /> 
                         </div>
 
@@ -35,7 +35,6 @@ class App extends Component {
                             <input type="button" value="Search" />
                         </div>
                     </div>
-
                 </form>
 
                 <div className="NBYGeolocat">

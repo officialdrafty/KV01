@@ -43,13 +43,8 @@
     margin: auto 2%;
     .BookingForm {
         .inline {
-            display: flex;
-            flex-direction: column;
-            .inputFullW {
-                &:last-child {
-                    margin-left: 0em;
-                    margin-bottom: 0;
-                }
+            div {
+                display: block;
             }
         }
     }
@@ -59,21 +54,10 @@
         padding: 3em 2%;
         .BookingForm {
             .inline {
-                display: flex;
-                flex-direction: row;
-                .inputFullW {
-                    &:last-child {
-                        margin-left: 1.8em;
-                    }
-                }
-
-                .halfbtn {
-                    input[type=button] {
-                        box-sizing : border-box;
-                        &:last-child {
-                            margin-left: 1.5em;
-                        }
-                    }
+                div {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 50%;
                 }
             }
         }
@@ -93,6 +77,13 @@
         color: white;
     }
 
+    h4 {
+        font-size: 17pt;
+        font-weight: normal;
+        color: white;
+        margin-bottom: 20px;
+    }
+
     p {
         margin: 20px 0;
         font-size: 24px;  
@@ -107,8 +98,9 @@
 input {
     width: 100%;
     height: 79px;
-    font-size: 16pt;
-    border-color: none;
+    font-size: 12pt;
+    color: #4a4a4a;
+    border: none;
     padding: 0 22px;
     margin-bottom: 1.8em;
     box-sizing : border-box;

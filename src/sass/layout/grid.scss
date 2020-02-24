@@ -24,11 +24,16 @@ body {
 
 .container-fluid {
     max-width: 2402px;
-    width: 90%;
+    width: 78vw;
+    max-width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+}
+
+.bp-mb {
+    margin-bottom: 3.5em;
 }
 
 @media (max-width: 55em ) { 
