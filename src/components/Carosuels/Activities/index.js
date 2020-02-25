@@ -7,7 +7,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="container-fluid bp-mb">
+      <div className="container-fluid bp-mb">  
             <Carosuel1 />
             <Carosuel2 />
             <Carosuel3 />

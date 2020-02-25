@@ -1,3 +1,4 @@
-## Create BPDG App
+## Kommonplace's V1
 
-Working build a easiest and fastest way to create new web projects with create react app.
+1. Front-End Web Development
+2. Back-End Web Devlopment
