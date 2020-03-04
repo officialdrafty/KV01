@@ -3,8 +3,9 @@ import history from '../history';
 import MainScreen from '../Forms/MainScreen';
 import Hero from '../layouts/hero';
 import About from '../layouts/aboutHome';
-import Carosuels from '../Carosuels/Activities/index.js';
+import Carosuels from '../Carosuels/Activities/index';
 import SpecialEvents from '../layouts/setConent';
+import ContentWrapper from '../layouts/contentWrapper';
 
 export default class Home extends Component {
   componentDidMount() {
@@ -15,10 +16,11 @@ export default class Home extends Component {
     return (
       <div id="home">
           <MainScreen />
-          <Hero/>
+          <Hero />
           <About />
           <Carosuels />
           <SpecialEvents />
+          <ContentWrapper />
       </div> 
     );
   }

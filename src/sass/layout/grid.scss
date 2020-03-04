@@ -45,6 +45,18 @@ body {
     margin-bottom: 3.5em;
 }
 
+.column-container {
+    height: auto;
+    display: flex;
+    .flex-basis-50 {
+        flex-basis: 50%;
+    }
+
+    .img-col {
+        height: auto;
+    }
+}
+
 @media (max-width: 55em ) { 
     .container {
       max-width: 1020px;
