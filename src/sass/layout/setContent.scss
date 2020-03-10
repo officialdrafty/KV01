@@ -41,6 +41,8 @@
 
             li {
                 display: inline-block;
+                max-width: 100%;
+                width: 31%;
                 h1 {
                     font-size: 42pt;
                     font-weight: bold;
@@ -49,10 +51,40 @@
 
                 p {
                     font-size: 15pt;
-                    max-width: 100%;
+                    max-width: 80%;
                     margin: 0 auto;
                 }
             }
+        }
+    }
+}
+
+.content {
+    .innertube {
+        position: relative;
+        top: 0px;
+        margin: auto 142px;
+
+        input[type=button] {
+            width: 40%;
+            height: 59px;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.0rem;
+            line-height: 1.321em;
+            padding: 19px 0;
+        }
+    }
+    
+    .btnWidth {
+        input[type=button] {
+            width: 100%;
+            margin-bottom: 0px;
         }
     }
 }

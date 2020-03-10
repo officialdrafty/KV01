@@ -6,6 +6,7 @@ import About from '../layouts/aboutHome';
 import Carosuels from '../Carosuels/Activities/index';
 import SpecialEvents from '../layouts/setConent';
 import ContentWrapper from '../layouts/contentWrapper';
+import Footer from '../layouts/footer';
 
 export default class Home extends Component {
   componentDidMount() {
@@ -21,6 +22,7 @@ export default class Home extends Component {
           <Carosuels />
           <SpecialEvents />
           <ContentWrapper />
+          <Footer />
       </div> 
     );
   }
