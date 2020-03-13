@@ -4,8 +4,8 @@
 
 **Todo List:** 
 
-- [ ] Add My Task
-- [ ] Add My Task
+- [ ] Worked on impoving the mobile layout
+- [ ] Worked on 
 - [ ] Add My Task
 - [ ] Add My Task
 - [ ] Add My Task
