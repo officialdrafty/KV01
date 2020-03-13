@@ -10,16 +10,7 @@
 - [ ] Add My Task
 - [ ] Add My Task
 - [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
-- [ ] Add My Task
+
 
 2. Back-End Web Devlopment
 
