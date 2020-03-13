@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import history from '../history';
-import MainScreen from '../Forms/MainScreen';
+import Navigation from '../layouts/navigation';
 import Hero from '../layouts/hero';
 import About from '../layouts/aboutHome';
 import Carosuels from '../Carosuels/Activities/index';
@@ -16,12 +16,12 @@ export default class Home extends Component {
   render() {
     return (
       <div id="home">
-          <MainScreen />
+          <Navigation />
           <Hero />
           <About />
           <Carosuels />
           <SpecialEvents />
-          <ContentWrapper />
+          <ContentWrapper />3
           <Footer />
       </div> 
     );

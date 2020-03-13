@@ -11,24 +11,24 @@ class App extends Component {
                 <p>Book thousands of innovation spaces directly from local event planner.</p>
                 <form className="BookingForm" onSubmit="">
                     <div>
-                        <input placeholder="What are you planning?" type="text" value="" onChange="" />
+                        <input placeholder="What are you planning?" type="text"  />
                     </div>
 
                     <div class="inline">
                         <div>
                             <h4>Check-In</h4>
-                            <input placeholder="12/23/2020" type="date" value="check-in" onChange="" />   
+                            <input placeholder="12/23/2020" type="date" />   
                         </div>
 
                         <div>
                             <h4>Check-Out</h4>
-                            <input placeholder="12/23/2020" type="date" value="check-out" onChange="" />
+                            <input placeholder="12/23/2020" type="date" />
                         </div>
                     </div>
 
                     <div className="inline">
                         <div>
-                            <input placeholder="College Park, MD, USA" type="location" value="" onChange="" /> 
+                            <input placeholder="College Park, MD, USA" type="location" /> 
                         </div>
 
                         <div className="halfbtn">
