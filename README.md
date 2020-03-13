@@ -1,8 +1,8 @@
 ## Kommonplace's V1
 
 1. Front-End Web Development
-# [checkbox:checked] - Worked on fixing responsive for first page
-# [checkbox:checked] - 
+unchecked # [checkbox:unchecked] - Worked on fixing responsive for first page
+unchecked # [checkbox:unchecked] - 
 
 
 2. Back-End Web Devlopment
