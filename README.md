@@ -1,37 +1,25 @@
 ## Kommonplace's V1
 
 1. Front-End Web Development
-- [ ] Worked on fixing responsive for first page
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+
+Todo List: 
+
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
+- [ ] Add My Task
 
 2. Back-End Web Devlopment
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
 
