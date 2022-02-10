@@ -10,7 +10,7 @@
     "jshint": "^2.10.2",
     "mobx": "^5.15.1",
     "mobx-react": "^6.1.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-modal": "^3.11.2",
